@@ -1,0 +1,11 @@
+# OS X Files
+.DS_Store
+**/.DS_Store
+Example/.idea
+Example/Pods
+SDK
+Example/Podfile.lock
+Example/TCCCCallKitApp.xcworkspace
+Example/TCCCCallKitApp.xcodeproj/xcuserdata/
+Example/TCCCCallKitApp.xcodeproj/project.xcworkspace/xcuserdata/
+Example/TCCCCallKitApp.xcodeproj/project.xcworkspace/xcshareddata/
