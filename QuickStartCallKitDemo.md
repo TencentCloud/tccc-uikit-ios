@@ -38,7 +38,8 @@
 ## 操作步骤
 
 ### 步骤1：下载 tccc-uikit-ios 源码
-    根据实际业务需求 [tccc-uikit-ios](https://github.com/TencentCloud/tccc-uikit-ios) 源码。
+
+  根据实际业务需求 [tccc-uikit-ios](https://github.com/TencentCloud/tccc-uikit-ios) 源码。
 
 [](id:step2)
 ### 步骤2：配置 tccc-uikit-ios 工程文件
