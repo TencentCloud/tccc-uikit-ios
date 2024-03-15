@@ -1,0 +1,14 @@
+/*
+  Localizable.strings
+  TCCCCallKitApp
+
+  Created by gavinwjwang on 2024/3/7.
+  
+*/
+"AppCallToPlaceholder" = "请输入需要呼叫的号码";
+"AppCallBtnText" = "呼叫";
+"AppMainTitle" = "腾讯云联络中心";
+"AppLoginSuccess" = "登录成功";
+"AppLoginError" = "登录失败。%s";
+"AppGetTokenError" = "获取token失败。%s";
+

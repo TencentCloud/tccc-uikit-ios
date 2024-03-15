@@ -1,0 +1,48 @@
+//
+//  Localized.strings
+//  TCCCCallKit-Swift
+//
+//  Created by gavinwjwang on 2024/02/28.
+//  Copyright © 2024 Tencent. All rights reserved.
+//
+
+"TUICallKit.inviteToAudioCall" = "You have a new call, please answer…";
+"TUICallKit.waitAccept" = "Waiting for the user to accept…";
+"TUICallKit.accept" = "Connected";
+
+"TUICallKit.hangup" = "Hang Up";
+"TUICallKit.decline" = "Decline";
+"TUICallKit.answer" = "Answer";
+"TUICallKit.calleeTip" = "Prepare for the call";
+"TUICallKit.FloatingWindow.waitAccept" = "Waiting";
+
+
+"TUICallKit.UnableToRestartTheCall" = "Unable to restart the call";
+
+"TUICallKit.ErrorLoginElseWhere" = "Your account has been logged in elsewhere";
+"TUICallKit.ErrorReqmissionDenied" = "No microphone permission, please authorize.";
+
+"TUICallKit.FailedToGetMicrophonePermission.Title" = "No access to microphone";
+"TUICallKit.FailedToGetMicrophonePermission.Tips"  = "Unable to use the function of sending audio calls, click \"Authorize Now\" to open the microphone permission";
+"TUICallKit.FailedToGetMicrophonePermission.Later" = "Later";
+"TUICallKit.FailedToGetMicrophonePermission.Enable" = "Authorize Now";
+
+"TUICallKit.unmuted" = "Unmuted";
+"TUICallKit.muted" = "Muted";
+"TUICallKit.speakerPhone" = "Speaker";
+"TUICallKit.earpiece" = "Earpiece";
+
+"TUICallKit.EndedReason.error" = "The call restriction ends, possibly because the other party refuses to answer or due to predetermined outbound call rules. ";
+"TUICallKit.EndedReason.timeout" = "Hang up after timeout";
+"TUICallKit.EndedReason.local_bye" = "you have hung up";
+"TUICallKit.EndedReason.remote_bye" = "The other party has hung up";
+"TUICallKit.EndedReason.rejected" = "The other party has rejected the call";
+"TUICallKit.EndedReason.remote_cancel" = "The other party has canceled";
+
+"TUICallKit.Network.offline_quality" = "The current network does not meet the minimum requirements for call";
+"TUICallKit.Network.vbad_quality" = "The current network is very bad";
+"TUICallKit.Network.bad_quality" = "The current network is bad";
+"TUICallKit.Network.poor_quality" = "The current network is poor";
+"TUICallKit.Network.good_quality" = "The current network is relatively good";
+"TUICallKit.Network.excellent_quality" = "The current network is very good";
+"TUICallKit.Network.excellent_unknown" = "The current network quality is unknown";

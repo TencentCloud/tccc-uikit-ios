@@ -1,0 +1,6 @@
+framework module TCCCSDK {
+  umbrella header "tccc/platform/apple/TCCCWorkstation.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,46 @@
+//
+//  Localized.strings
+//  TCCCCallKit-Swift
+//
+//  Created by gavinwjwang on 2024/02/28.
+//  Copyright © 2024 Tencent. All rights reserved.
+//
+
+"TUICallKit.inviteToAudioCall" = "您有新的来电，请接听...";
+"TUICallKit.waitAccept" = "正在等待对方接听...";
+"TUICallKit.accept" = "已接通";
+
+"TUICallKit.hangup" = "挂断";
+"TUICallKit.decline" = "拒接";
+"TUICallKit.answer" = "接听";
+"TUICallKit.calleeTip" = "准备通话";
+"TUICallKit.FloatingWindow.waitAccept" = "等待接听";
+
+"TUICallKit.UnableToRestartTheCall" = "正在通话中，无法再次发起";
+"TUICallKit.ErrorLoginElseWhere" = "您的账号已在其他位置登录";
+"TUICallKit.ErrorReqmissionDenied" = "无麦克风权限，请授权。";
+
+"TUICallKit.FailedToGetMicrophonePermission.Title" = "麦克风权限未开启";
+"TUICallKit.FailedToGetMicrophonePermission.Tips"  = "无法使用发送音频通话功能，点击\"去开启\"打开麦克风权限";
+"TUICallKit.FailedToGetMicrophonePermission.Later" = "以后再说";
+"TUICallKit.FailedToGetMicrophonePermission.Enable" = "去开启";
+
+"TUICallKit.unmuted" = "麦克风已开";
+"TUICallKit.muted" = "麦克风已关";
+"TUICallKit.speakerPhone" = "扬声器已开";
+"TUICallKit.earpiece" = "扬声器已关";
+
+"TUICallKit.EndedReason.error" = "通话结束，可能是对方拒接或者是命中外呼限制规则等等原因。";
+"TUICallKit.EndedReason.timeout" = "超时挂断";
+"TUICallKit.EndedReason.local_bye" = "你已挂断";
+"TUICallKit.EndedReason.remote_bye" = "对方已挂断";
+"TUICallKit.EndedReason.rejected" = "对方已拒接";
+"TUICallKit.EndedReason.remote_cancel" = "对方已取消";
+
+"TUICallKit.Network.offline_quality" = "当前网络不满足通话的最低要求";
+"TUICallKit.Network.vbad_quality" = "当前网络非常差";
+"TUICallKit.Network.bad_quality" = "当前网络很差";
+"TUICallKit.Network.poor_quality" = "当前网络较差";
+"TUICallKit.Network.good_quality" = "当前网络比较好";
+"TUICallKit.Network.excellent_quality" = "当前网络非常好";
+"TUICallKit.Network.excellent_unknown" = "当前网络质量未知";

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  TCCCCallKitApp
+
+  Created by gavinwjwang on 2024/3/7.
+  
+*/
+"AppCallToPlaceholder" = "Please enter the number you want to call";
+"AppCallBtnText" = "Call";
+"AppMainTitle" = "Tencent Cloud Contact Center";
+"AppLoginSuccess" = "Login success";
+"AppLoginError" = "Login failed. %s";
+"AppGetTokenError" = "Failed to obtain Token. %s";
