@@ -128,7 +128,7 @@ extension TUICallState:  TCCCDelegate {
         case .RemoteBye:
             msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.remote_bye") ?? ""
         case .LocalCancel:
-            msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.local_bye") ?? ""
+            msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.local_cancel") ?? ""
         case .RemoteCancel:
             msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.remote_cancel") ?? ""
         case .Rejected:

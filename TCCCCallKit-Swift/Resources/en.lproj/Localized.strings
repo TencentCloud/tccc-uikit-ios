@@ -35,6 +35,7 @@
 "TUICallKit.EndedReason.error" = "The call restriction ends, possibly because the other party refuses to answer or due to predetermined outbound call rules. ";
 "TUICallKit.EndedReason.timeout" = "Hang up after timeout";
 "TUICallKit.EndedReason.local_bye" = "you have hung up";
+"TUICallKit.EndedReason.local_cancel" = "you have canceled";
 "TUICallKit.EndedReason.remote_bye" = "The other party has hung up";
 "TUICallKit.EndedReason.rejected" = "The other party has rejected the call";
 "TUICallKit.EndedReason.remote_cancel" = "The other party has canceled";

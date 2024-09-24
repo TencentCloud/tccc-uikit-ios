@@ -33,6 +33,7 @@
 "TUICallKit.EndedReason.error" = "通话结束，可能是对方拒接或者是命中外呼限制规则等等原因。";
 "TUICallKit.EndedReason.timeout" = "超时挂断";
 "TUICallKit.EndedReason.local_bye" = "你已挂断";
+"TUICallKit.EndedReason.local_cancel" = "你已取消呼叫";
 "TUICallKit.EndedReason.remote_bye" = "对方已挂断";
 "TUICallKit.EndedReason.rejected" = "对方已拒接";
 "TUICallKit.EndedReason.remote_cancel" = "对方已取消";
