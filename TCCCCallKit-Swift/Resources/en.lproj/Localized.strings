@@ -32,7 +32,7 @@
 "TUICallKit.speakerPhone" = "Speaker";
 "TUICallKit.earpiece" = "Earpiece";
 
-"TUICallKit.EndedReason.error" = "The call restriction ends, possibly because the other party refuses to answer or due to predetermined outbound call rules. ";
+"TUICallKit.EndedReason.error" = "The call ended because it may have been intercepted by the operator due to number blacklist or fake number.";
 "TUICallKit.EndedReason.timeout" = "Hang up after timeout";
 "TUICallKit.EndedReason.local_bye" = "you have hung up";
 "TUICallKit.EndedReason.local_cancel" = "you have canceled";

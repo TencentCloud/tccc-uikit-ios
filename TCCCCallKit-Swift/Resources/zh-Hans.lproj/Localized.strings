@@ -30,7 +30,7 @@
 "TUICallKit.speakerPhone" = "扬声器已开";
 "TUICallKit.earpiece" = "扬声器已关";
 
-"TUICallKit.EndedReason.error" = "通话结束，可能是对方拒接或者是命中外呼限制规则等等原因。";
+"TUICallKit.EndedReason.error" = "通话结束，可能是因号码黑名单或靓号等原因被运营商拦截。";
 "TUICallKit.EndedReason.timeout" = "超时挂断";
 "TUICallKit.EndedReason.local_bye" = "你已挂断";
 "TUICallKit.EndedReason.local_cancel" = "你已取消呼叫";

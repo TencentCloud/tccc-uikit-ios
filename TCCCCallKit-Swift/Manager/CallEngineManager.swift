@@ -13,6 +13,8 @@ class CallEngineManager {
    
     func addObserver(_ observer: TCCCDelegate) {
         self.getTCCCSDKInstance().callExperimentalAPI("setUserAgentStr", jsonStr: "TCCCCallKit")
+        let version: String = TCCCWorkstation.getSDKVersion()
+        print("TCCCC Version = ", version)
         self.getTCCCSDKInstance().addTcccListener(observer)
     }
     

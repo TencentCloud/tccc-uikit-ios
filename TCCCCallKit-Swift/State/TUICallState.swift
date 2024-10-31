@@ -117,10 +117,15 @@ extension TUICallState:  TCCCDelegate {
         var msg: String = ""
         switch(reason) {
         case .Error:
-            // 外呼规则如下：
-            // https://cloud.tencent.com/document/product/679/79155
-            msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.error") ?? ""
-            msg = msg + reasonMessage
+            // 外呼规则如下：https://cloud.tencent.com/document/product/679/79155
+            // 如果包含 SipReason 说明原因可能是主叫或者被叫运营商拦截或者无法送到。其他情况直接用tccc提供的挂断原因
+            if !reasonMessage.isEmpty && reasonMessage.contains("SipReason") {
+                msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.error") ?? ""
+                msg = msg + reasonMessage
+            } else {
+                msg = reasonMessage
+            }
+            
         case .Timeout:
             msg = TUICallKitLocalize(key: "TUICallKit.EndedReason.timeout") ?? ""
         case .LocalBye:
