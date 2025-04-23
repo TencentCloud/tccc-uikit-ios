@@ -31,7 +31,7 @@ pod init
 [](id:step2)
 ## 步骤二：下载并导入组件
 
-在 [Github](https://github.com/TencentCloud/tccc-uikit-ios) 中克隆/下载代码，然后拷贝该库目录下的 **TCCCCallKit-Swift** 、** TCCCCallKit-Swift.podspec ** **Frameworks** 子目录到您当前工程中的 app 同一级目录中，如下图：
+在 [Github](https://github.com/TencentCloud/tccc-uikit-ios) 中克隆/下载代码，然后拷贝该库目录下的 **TCCCCallKit-Swift** 、**TCCCCallKit-Swift.podspec** 、**Frameworks** 子目录到您当前工程中的 app 同一级目录中，如下图：
 
 ![](https://tccc.qcloud.com/assets/doc/Agent/ios_image/iosSDK_pod.png)
 
