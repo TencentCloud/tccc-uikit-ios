@@ -18,6 +18,7 @@ class CallKitViewController: UIViewController, SingleCallViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.setNeedsStatusBarAppearanceUpdate()
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewDidLoad(){

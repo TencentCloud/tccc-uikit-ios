@@ -78,21 +78,57 @@ public protocol TUICallStatusListener {
 
 @objc
 public class TUISessionInfo: NSObject {
-    var sessionId: String = ""
-    var toUserId: String = ""
-    var fromUserId: String = ""
-    var sessionDirection: TUISessionDirection = .CallOut
-    var customHeaderJson: String = ""
+    public var sessionId: String = ""
+    public var toUserId: String = ""
+    public var fromUserId: String = ""
+    public var sessionDirection: TUISessionDirection = .CallOut
+    public var customHeaderJson: String = ""
+    
+    @objc
+    public override init() {
+        super.init()
+    }
+    
+    @objc
+    public init(sessionId: String, toUserId: String, fromUserId: String, sessionDirection: TUISessionDirection, customHeaderJson: String) {
+       self.sessionId = sessionId
+       self.toUserId = toUserId
+       self.fromUserId = fromUserId
+       self.sessionDirection = sessionDirection
+       self.customHeaderJson = customHeaderJson
+   }
 }
 
 @objc
 public class TUIQualityInfo: NSObject {
-    var userId: String = ""
-    var quality:TUIQuality = .Unknown
+    public var userId: String = ""
+    public var quality:TUIQuality = .Unknown
+    
+    @objc
+    public override init() {
+        super.init()
+    }
+    
+    @objc
+    public init(userId: String, quality: TUIQuality) {
+       self.userId = userId
+       self.quality = quality
+   }
 }
 
 @objc
 public class TUIVolumeInfo: NSObject {
-    var userId: String = ""
-    var volume: Int32 = 0
+    public var userId: String = ""
+    public var volume: Int32 = 0
+    
+    @objc
+    public override init() {
+        super.init()
+    }
+    
+    @objc
+    public init(userId: String, volume: Int32) {
+       self.userId = userId
+       self.volume = volume
+   }
 }
